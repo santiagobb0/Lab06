@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header> <!-- Encabezado con menú de navegación -->
+        <h1>Lenguajes de programación</h1>
+        <nav>
+            <nav>
+            <p>Menú de navegación:</p>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="lenguajes.html">Lenguajes</a></li>
+                <li><a href="validacion.html">Validación</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr><br>
+    <main>
+        <fieldset>
+            <legend>Lenguajes de Programación</legend>
+            <form action="#" method="post">
+                <label for="preferencias">
+                    Preferencias: <br>
+                    <textarea name="preferencias" id="preferencias" placeholder="Ingrese sus preferencias"></textarea>
+                </label>
+                <br><br>
+    
+                <label for="">Ingrese su foto de perfil:</label> 
+                <input type="file" name="perfil" id="perfil">
+    
+                <br><br>
+                <label for="lenguajes">¿Qué lenguajes conoces?</label>
+                <select name="lenguajes" id="lenguajes">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                </select>
+    
+                <br><br>
+                <label for="horas">¿Cuanto tiempo dedicas a programar a diario?</label>
+                <input type="number" name="horas" id="horas" step="any" min="0" max="24">
+    
+                <br><br>
+                <button type="submit">Guardar</button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
